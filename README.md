@@ -4,7 +4,7 @@ Projet personnel, mené de ma propre initiative par intérêt pour l'analyse de 
 
 **Question business :** quelles caractéristiques rendent une chanson populaire ?
 
-**Dashboard interactif en ligne :** _(lien GitHub Pages à ajouter ici une fois activé)_
+**Dashboard interactif en ligne :** [gabrielgithub09.github.io/spotify-hit-analysis/dashboard/spotify_dashboard.html](https://gabrielgithub09.github.io/spotify-hit-analysis/dashboard/spotify_dashboard.html)
 
 ## Structure du repo
 
