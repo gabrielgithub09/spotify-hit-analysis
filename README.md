@@ -1,10 +1,10 @@
 # Spotify Top 100 Songs (2010-2019) : Analyse pour un label musical
 
-Projet personnel, mené de ma propre initiative par intérêt pour l'analyse de données appliquée à la musique : SQL, Python, HTML/CSS/JavaScript pour le dashboard interactif. Une reconstruction Power BI est en cours (voir `docs/powerbi_guide.md`).
+Projet personnel, mené de ma propre initiative par intérêt pour l'analyse de données appliquée à la musique : SQL, Python, HTML/CSS/JavaScript pour le dashboard interactif, ainsi qu'une reconstruction Power BI (voir `powerbi/`, guide pas-à-pas dans `docs/powerbi_guide.md`).
 
 **Question business :** quelles caractéristiques rendent une chanson populaire ?
 
-**Dashboard interactif en ligne :** _(lien GitHub Pages à ajouter ici une fois activé)_
+**Dashboard interactif en ligne :** [gabrielgithub09.github.io/spotify-hit-analysis/dashboard/spotify_dashboard.html](https://gabrielgithub09.github.io/spotify-hit-analysis/dashboard/spotify_dashboard.html)
 
 ## Structure du repo
 
@@ -42,6 +42,10 @@ sql/
 dashboard/
   spotify_dashboard.html    dashboard interactif autonome (ouvrir dans un navigateur, ou en ligne via GitHub Pages)
 
+powerbi/
+  spotify_dashboard.pbix       fichier Power BI Desktop (même schéma en étoile, mêmes mesures DAX, 4 pages de rapport)
+  Spotify_PowerBI_Export.pdf   export PDF statique des 4 pages (Overview, Evolution over time, Artists, What explains popularity)
+
 docs/
   powerbi_guide.md          guide pas-à-pas pour reconstruire le rapport dans Power BI Desktop
   Spotify_Project_Report.docx   rapport complet (méthodologie, insights, glossaire, section 7 = extension)
@@ -67,7 +71,7 @@ python3 09_key_mode_analysis.py         # -> data_v2/key_mode_analysis.json
 python3 10_hit_classifier_chart.py      # -> docs/assets_v2/chart_hit_classifier.png
 ```
 
-Le dashboard s'ouvre directement (`dashboard/spotify_dashboard.html`), aucune installation nécessaire.
+Le dashboard s'ouvre directement (`dashboard/spotify_dashboard.html`), aucune installation nécessaire. Le fichier Power BI (`powerbi/spotify_dashboard.pbix`) nécessite Power BI Desktop (gratuit) pour être ouvert et exploré de façon interactive ; un export PDF statique est fourni pour un aperçu rapide sans rien installer.
 
 ## Résultat principal
 
