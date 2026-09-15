@@ -1,6 +1,6 @@
 # Spotify Top 100 Songs (2010-2019) : Analyse pour un label musical
 
-Projet personnel, mené de ma propre initiative par intérêt pour l'analyse de données appliquée à la musique : SQL, Python, Power BI (voir `powerbi/`, guide pas-à-pas dans `docs/powerbi_guide.md`), ainsi qu'un dashboard interactif en HTML/CSS/JavaScript.
+Projet personnel, par intérêt pour l'analyse de données appliquée à la musique : SQL, Python, Power BI (voir `powerbi/`, guide pas-à-pas dans `docs/powerbi_guide.md`), ainsi qu'un dashboard interactif en HTML/CSS/JavaScript.
 
 **Question business :** quelles caractéristiques rendent une chanson populaire ?
 
